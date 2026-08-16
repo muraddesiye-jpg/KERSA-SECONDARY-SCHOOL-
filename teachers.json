@@ -1,0 +1,25 @@
+{
+  "teachers": [
+    {
+      "id": "TCH001",
+      "name": "Gemechu Desta",
+      "subject": "Physics",
+      "qualification": "M.Sc. Physics",
+      "experience": 15
+    },
+    {
+      "id": "TCH002",
+      "name": "Tigist Haile",
+      "subject": "Mathematics",
+      "qualification": "M.Ed. Mathematics",
+      "experience": 12
+    },
+    {
+      "id": "TCH003",
+      "name": "Hiwot Alemu",
+      "subject": "English",
+      "qualification": "M.A. English",
+      "experience": 8
+    }
+  ]
+}
