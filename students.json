@@ -1,0 +1,32 @@
+{
+  "students": [
+    {
+      "id": "STU2024001",
+      "name": "Abebe Kebede",
+      "grade": 9,
+      "section": "A",
+      "average_score": 92.5
+    },
+    {
+      "id": "STU2024002",
+      "name": "Selam Tesfaye",
+      "grade": 9,
+      "section": "A",
+      "average_score": 95.0
+    },
+    {
+      "id": "STU2024003",
+      "name": "Mohammed Ahmed",
+      "grade": 10,
+      "section": "B",
+      "average_score": 88.7
+    },
+    {
+      "id": "STU2024004",
+      "name": "Sara Bekele",
+      "grade": 10,
+      "section": "B",
+      "average_score": 91.3
+    }
+  ]
+}
