@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - Kersa Secondary School</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar and Navigation -->
+    
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Admissions</h1>
+            <p>Join the Kersa Secondary School Family</p>
+        </div>
+    </section>
+
+    <!-- Admission Process -->
+    <section class="process-section">
+        <div class="container">
+            <h2 class="section-title">How to Apply</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Submit Application</h3>
+                    <p>Complete the application form with personal and academic information.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Submit Documents</h3>
+                    <p>Provide academic transcripts, birth certificate, and recommendation letters.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Entrance Exam</h3>
+                    <p>Take the entrance examination in Mathematics, English, and General Knowledge.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Interview</h3>
+                    <p>Selected candidates will be invited for an interview with parents/guardians.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>Admission Decision</h3>
+                    <p>Receive your admission decision within two weeks of the interview.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements -->
+    <section class="requirements-section">
+        <div class="container">
+            <h2 class="section-title">Admission Requirements</h2>
+            <div class="requirements-grid">
+                <div class="requirement-card">
+                    <h3>New Students</h3>
+                    <ul>
+                        <li>Completion of Grade 8 with passing grades</li>
+                        <li>Birth certificate or equivalent</li>
+                        <li>Passport-size photographs (2)</li>
+                        <li>Transfer certificate (if applicable)</li>
+                        <li>Recommendation letter from previous school</li>
+                    </ul>
+                </div>
+                <div class="requirement-card">
+                    <h3>Transfer Students</h3>
+                    <ul>
+                        <li>Academic transcript from current school</li>
+                        <li>Transfer certificate</li>
+                        <li>Recommendation from current principal</li>
+                        <li>Interview with academic committee</li>
+                        <li>Placement test</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="application-form-section">
+        <div class="container">
+            <h2 class="section-title">Online Application Form</h2>
+            <form id="applicationForm" class="application-form">
+                <h3>Student Information</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name *</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="middleName">Middle Name</label>
+                        <input type="text" id="middleName" name="middleName">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name *</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="gender">Gender *</label>
+                        <select id="gender" name="gender" required>
+                            <option value="">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth *</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="grade">Applying for Grade *</label>
+                        <select id="grade" name="grade" required>
+                            <option value="">Select Grade</option>
+                            <option value="9">Grade 9</option>
+                            <option value="10">Grade 10</option>
+                            <option value="11">Grade 11</option>
+                            <option value="12">Grade 12</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <h3>Parent/Guardian Information</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="parentName">Parent/Guardian Name *</label>
+                        <input type="text" id="parentName" name="parentName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="relationship">Relationship *</label>
+                        <input type="text" id="relationship" name="relationship" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                </div>
+                
+                <h3>Previous Education</h3>
+                <div class="form-group">
+                    <label for="prevSchool">Previous School *</label>
+                    <input type="text" id="prevSchool" name="prevSchool" required>
+                </div>
+                <div class="form-group">
+                    <label for="prevGrade">Grade Completed *</label>
+                    <input type="text" id="prevGrade" name="prevGrade" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="additionalInfo">Additional Information</label>
+                    <textarea id="additionalInfo" name="additionalInfo" rows="4"></textarea>
+                </div>
+                
+                <div class="form-check">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">I confirm that the information provided is accurate and complete *</label>
+                </div>
+                
+                <button type="submit" class="btn-primary">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <script src="js/main.js"></script>
+</body>
+</html>
