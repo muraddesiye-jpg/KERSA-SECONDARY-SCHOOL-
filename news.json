@@ -1,0 +1,37 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Students Excel in National Examinations",
+      "content": "Our students achieved outstanding results in the national exams with a 98% pass rate.",
+      "category": "academic",
+      "author": "Admin",
+      "date": "January 15, 2024",
+      "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3",
+      "excerpt": "Our students achieved outstanding results in the national exams with a 98% pass rate. This is the highest in the region...",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "New Computer Lab Opens",
+      "content": "State-of-the-art computer laboratory equipped with 50 new computers is now open for students.",
+      "category": "announcement",
+      "author": "ICT Department",
+      "date": "January 10, 2024",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3",
+      "excerpt": "State-of-the-art computer laboratory equipped with 50 new computers is now open for students...",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "Football Team Wins Regional Championship",
+      "content": "Our school football team emerged victorious in the regional tournament.",
+      "category": "sports",
+      "author": "Sports Department",
+      "date": "January 5, 2024",
+      "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-4.0.3",
+      "excerpt": "Our school football team emerged victorious in the regional tournament, defeating strong competitors...",
+      "link": "#"
+    }
+  ]
+}
