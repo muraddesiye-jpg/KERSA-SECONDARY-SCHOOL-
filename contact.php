@@ -41,4 +41,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $emailBody .= "Subject: $subject\n\n";
         $emailBody .= "Message:\n$message\n";
         $headers = "From: $email\r\n";
-        $headers .= "Reply-To: $email
+        $headers .= "Reply-To: $email\r\n";
+        
+        // Uncomment to enable email notifications
+        // mail($to, $emailSubject, $emailBody, $headers);
+        
+        echo json_encode([
+            'success' => true,
+            'message' => 'Message sent successfully. We will respond within 24 hours.'
+        ]);
+    } else {
+        echo json_encode([
+            'success' => false,
+            'message' => 'Error sending message: ' . $conn->error
+        ]);
+    }
+    
+    $stmt->close();
+    $conn->close();
+} else {
+    echo json_encode([
+        'success' => false,
+        'message' => 'Invalid request method'
+    ]);
+}
+?>
